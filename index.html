@@ -482,7 +482,19 @@ footer .sig{font-family:var(--f-hand);font-size:26px;font-weight:700;color:var(-
 
       <div class="bk span2">
         <h3><svg class="ico"><use href="#i-car"/></svg>오릭스 렌터카 · 나하공항점</h3>
-        <p class="sub">국내선 터미널 1층에서 무료 셔틀 ⑪-B 탑승장</p>
+        <p class="sub">국제선 도착 후 국내선 터미널 1층 외부 ⑪-B에서 오릭스 무료 셔틀 탑승</p>
+        <div class="callout" style="display:block;margin:15px 0;padding:16px 18px">
+          <b style="display:block;margin-bottom:9px">🚌 나하공항 도착 → 오릭스 렌터카 셔틀 승차 안내</b>
+          <ol style="margin:0;padding-left:22px;line-height:1.9;font-size:13px">
+            <li><b>국제선 터미널</b> · 진에어 LJ395 도착 후 입국심사 및 수하물 수령</li>
+            <li><b>국내선 터미널 1층</b> · 공항 건물 내부 연결 통로를 따라 국내선 도착 로비로 이동</li>
+            <li><b>1층 바깥으로 이동</b> · 횡단보도를 건너 렌터카 무료 셔틀 정류장으로 이동</li>
+            <li><b>⑪-B 승차장</b> · ‘レンタカー送迎バス乗り場’ 표지판을 확인하고 오릭스 나하공항점 셔틀 직원에게 예약자 이름 안내</li>
+            <li><b>오릭스 나하공항점</b> · 무료 셔틀로 약 20분 이동, 도요사키 1-1174에서 차량 인수</li>
+          </ol>
+          <p style="font-size:12px;margin:10px 0 0">직원에게 보여줄 일본어: <b>オリックスレンタカー那覇空港店を予約しています。送迎バスはここで待てばいいですか？</b></p>
+          <p style="font-size:12px;margin:4px 0 0">※ ⑪-B는 국내선 1층 <b>실내가 아닌 건물 외부</b>의 셔틀 승차장입니다. 현장 안내 표지를 우선 확인하세요.</p>
+        </div>
         <div class="spread" style="grid-template-columns:1fr 1fr;gap:20px">
           <dl class="rows">
             <dt>인수</dt><dd class="num">11/3 16:00 확정 (14:00 희망)</dd>
@@ -492,8 +504,8 @@ footer .sig{font-family:var(--f-hand);font-size:26px;font-weight:700;color:var(-
             <dt>지점 전화</dt><dd class="num">+81-98-851-0543</dd>
           </dl>
           <div>
-            <div class="callout red"><svg class="ico"><use href="#i-alert"/></svg><div><b>14시 인수는 아직 미확정</b><br>타비라이 확정 예약은 16:00이에요. 승인 전에는 기존 예약을 유지해요. 12:35 착륙 후 입국, 짐, 셔틀을 생각하면 14시는 빠듯할 수 있어서 14:30~15:00도 같이 물어봐요.</div></div>
-            <div class="callout red"><svg class="ico"><use href="#i-alert"/></svg><div><b>카시트 교체</b><br>예약 메일에는 ‘주니어 시트’ 1개로 되어 있어요. 만 2세용 어린이 시트로 바꿔 달라고 지점에 문의해요. 예약을 먼저 취소하지 않아요.</div></div>
+            <div class="callout red"><svg class="ico"><use href="#i-alert"/></svg><div><b>14시 인수 변경 문의 접수 · 승인 대기</b><br>타비라이 확정 예약은 11/3 16:00입니다. 오릭스에 14시 인수를 문의했고, 변경 확정 답변이 오기 전에는 16시 예약을 유지하세요.</div></div>
+            <div class="callout red"><svg class="ico"><use href="#i-alert"/></svg><div><b>어린이 좌석</b><br>주니어 시트 1개 예약됨 · 현재 좌석으로 이용 가능하다고 확인했어요.</div></div>
           </div>
         </div>
         <div class="acts">
@@ -593,8 +605,8 @@ const days=[
    ['06:00','자택 출발','인천공항 T2 예약주차장까지 약 90분'],
    ['07:30','T2 예약주차장 도착','입차 예약 06:30 · 전후 4시간 내 입차 가능'],
    ['10:10','진에어 LJ395 출발','인천 제2터미널',1],
-   ['12:35','나하공항 도착','입국심사, 짐 찾고 ⑪-B 렌터카 셔틀'],
-   ['14:00','오릭스 렌터카 인수 (희망)','현재 확정은 16:00 · 14시 변경 미확인, 14:30~15:00도 문의','w'],
+   ['12:35','나하공항 도착','국제선 입국심사·수하물 수령 → 국내선 터미널 1층 → 횡단보도 건너 외부 ⑪-B 승차장 → 오릭스 무료 셔틀 약 20분'],
+   ['14:00 희망','오릭스 렌터카 인수 변경 문의','14시 인수 문의 접수 완료 · 답변 전에는 기존 16:00 예약 유지','w'],
    ['16:30~18:00','세라가키 호텔 도착','14시 인수면 17~18시, 16시면 저녁 무렵 도착',1],
    ['18:00~19:00','호텔 안에서 저녁','세라레 그릴 또는 쿠치나 세라레']],
   lunch:null,dinner:['serale','cucina'],place:['orix','hotel'],memo:'첫날 파르코시티는 금요일로 옮겼어요. 렌터카 14시가 승인될 때까지 16시 예약은 그대로!'},
